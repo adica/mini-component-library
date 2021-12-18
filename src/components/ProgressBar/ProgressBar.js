@@ -46,6 +46,7 @@ const Wrapper = styled.progress`
     border-radius: var(--borderRadius);
     background-color: inherit;
     padding: var(--padding);
+    overflow: hidden;
   }
   
   &::-webkit-progress-value {
